@@ -87,7 +87,7 @@ def render_example(example):
         "ending_tokens": [],
     }
 
-    # gather up all the tokens
+    # gather all the tokens
     ctx_tokens = enc.encode(ctx)
     data["ctx_tokens"] = ctx_tokens
     tok_rows = []
